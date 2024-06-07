@@ -3,7 +3,7 @@ import { useState } from "react"
 
 export const InputAgregar = ({newCategoria}) => {
  
-  const [InputValue, setInputValue] = useState('ONE PUNCH');
+  const [InputValue, setInputValue] = useState('Control de Acceso');
 
   const ActivarInputChange=(event)=>{
       setInputValue(event.target.value);
