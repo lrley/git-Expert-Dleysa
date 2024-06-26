@@ -4,7 +4,7 @@ import { useFetchGifs } from "../hooks/useFetchGifs";
 
 
 export const GifGrid = ({cate}) => {
-
+/*prueba*/
 
 
 const {images,isLoading}= useFetchGifs(cate);
